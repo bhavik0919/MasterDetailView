@@ -11,9 +11,9 @@
 		FF1DA0AB1BB187F500595762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1DA0AA1BB187F500595762 /* AppDelegate.m */; };
 		FF1DA0AE1BB187F500595762 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1DA0AD1BB187F500595762 /* MasterViewController.m */; };
 		FF1DA0B11BB187F500595762 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1DA0B01BB187F500595762 /* DetailViewController.m */; };
-		FF1DA0B41BB187F500595762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1DA0B21BB187F500595762 /* Main.storyboard */; };
 		FF1DA0B61BB187F500595762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1DA0B51BB187F500595762 /* Assets.xcassets */; };
-		FF1DA0B91BB187F500595762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1DA0B71BB187F500595762 /* LaunchScreen.storyboard */; };
+		FF1DA0C11BB1883300595762 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF1DA0C01BB1883300595762 /* MasterViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		FF1DA0C31BB1889400595762 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF1DA0C21BB1889400595762 /* DetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +25,10 @@
 		FF1DA0AD1BB187F500595762 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		FF1DA0AF1BB187F500595762 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		FF1DA0B01BB187F500595762 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		FF1DA0B31BB187F500595762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF1DA0B51BB187F500595762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF1DA0B81BB187F500595762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF1DA0BA1BB187F500595762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1DA0C01BB1883300595762 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		FF1DA0C21BB1889400595762 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +65,11 @@
 				FF1DA0AA1BB187F500595762 /* AppDelegate.m */,
 				FF1DA0AC1BB187F500595762 /* MasterViewController.h */,
 				FF1DA0AD1BB187F500595762 /* MasterViewController.m */,
+				FF1DA0C01BB1883300595762 /* MasterViewController.xib */,
 				FF1DA0AF1BB187F500595762 /* DetailViewController.h */,
 				FF1DA0B01BB187F500595762 /* DetailViewController.m */,
-				FF1DA0B21BB187F500595762 /* Main.storyboard */,
+				FF1DA0C21BB1889400595762 /* DetailViewController.xib */,
 				FF1DA0B51BB187F500595762 /* Assets.xcassets */,
-				FF1DA0B71BB187F500595762 /* LaunchScreen.storyboard */,
 				FF1DA0BA1BB187F500595762 /* Info.plist */,
 				FF1DA0A61BB187F500595762 /* Supporting Files */,
 			);
@@ -141,9 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF1DA0B91BB187F500595762 /* LaunchScreen.storyboard in Resources */,
+				FF1DA0C11BB1883300595762 /* MasterViewController.xib in Resources */,
+				FF1DA0C31BB1889400595762 /* DetailViewController.xib in Resources */,
 				FF1DA0B61BB187F500595762 /* Assets.xcassets in Resources */,
-				FF1DA0B41BB187F500595762 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,25 +162,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FF1DA0B21BB187F500595762 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF1DA0B31BB187F500595762 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FF1DA0B71BB187F500595762 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF1DA0B81BB187F500595762 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FF1DA0BB1BB187F500595762 /* Debug */ = {
